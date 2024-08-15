@@ -1,0 +1,61 @@
+
+.onebox-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .thread {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .thread p {
+    margin: 0;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .thread button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .thread button:hover {
+    background-color: #ff7875;
+  }
+
+  .app-container.dark .onebox-container {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .app-container.dark .thread {
+    background-color: #444444;
+  }
+  
+  .app-container.dark .thread p {
+    color: #dddddd;
+  }
+  
+  .app-container.dark .thread button {
+    background-color: #ff6b6b;
+  }
+  

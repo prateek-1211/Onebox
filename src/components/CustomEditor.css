@@ -1,0 +1,39 @@
+div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+
+  .ql-container {
+    min-height: 300px;
+    border: none;
+    font-size: 16px;
+    line-height: 1.6;
+    border-radius: 4px;
+  }
+  
+  .ql-toolbar {
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .ql-save {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ql-save:hover {
+    background-color: #0056b3;
+  }
+  
