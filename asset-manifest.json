@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Onebox/static/css/main.7e52ae26.css",
+    "main.js": "/Onebox/static/js/main.c4c26d00.js",
+    "index.html": "/Onebox/index.html",
+    "main.7e52ae26.css.map": "/Onebox/static/css/main.7e52ae26.css.map",
+    "main.c4c26d00.js.map": "/Onebox/static/js/main.c4c26d00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e52ae26.css",
+    "static/js/main.c4c26d00.js"
+  ]
+}
